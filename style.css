@@ -1,0 +1,28 @@
+#header{
+    width: 900px;
+    height:200px;
+    background:red;
+
+}
+
+
+#fondecran {
+ background-image:url(vayne.jpeg);
+ display:flex;
+ justify-content: center;
+}
+#icone{
+    width:100px;
+    height:100px;
+    margin-left:50  px;
+    margin-top:50px;
+}
+#connexion{
+    color:white;
+    text-decoration:none;
+    margin-left:600px;
+ }
+ 
+ #connexion:hover{
+  color: red;
+ }
