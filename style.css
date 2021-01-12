@@ -1,8 +1,9 @@
 #header{
-    width: 900px;
-    height:200px;
-    background:red;
-
+    display: flex;
+    justify-content: space-between;
+    width:900px;
+    height:200px;  
+    
 }
 
 
@@ -14,15 +15,34 @@
 #icone{
     width:100px;
     height:100px;
-    margin-left:50  px;
+    margin-left:50px;
     margin-top:50px;
+    
 }
 #connexion{
+    margin-top: 100px;
+    margin-right: 175px;
+}
+#texte{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+#inscription{
+    margin-left: 30px;
     color:white;
-    text-decoration:none;
-    margin-left:600px;
- }
- 
- #connexion:hover{
-  color: red;
- }
+    text-decoration: none;
+    font-weight: 700;
+}
+#porte{
+    width: 10px;
+    height: 10px
+       
+}
+
+#texte:hover{
+    color:grey;
+}
+#inscription:hover{
+    color:grey;
+}
