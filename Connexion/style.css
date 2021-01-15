@@ -1,5 +1,5 @@
 body {
-  background: #1c242d;
+ background:url(../vayne.jpeg);
 }
 .box {
   border: 1px solid #c4c4c4;
@@ -11,6 +11,13 @@ body {
 h1.box-logo a {
   text-decoration:none;
 }
+#icone{
+    width:100px;
+    height:100px;
+    margin-left:37%;
+    
+    
+}
 h1.box-title {
   color: #AEAEAE;
   background: #f8f8f8;
@@ -19,7 +26,7 @@ h1.box-title {
   line-height: 30px;
   font-size: 25px;
   text-align:center;
-  margin: -27px -26px 26px;
+
 }
 .box-button {
   border-radius: 5px;
