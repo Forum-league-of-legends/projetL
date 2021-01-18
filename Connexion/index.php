@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../css/connexion.css"/>
   </head>
   <body>
     <div class="sucess">

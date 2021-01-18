@@ -1,7 +1,7 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="../css/connexion.css" />
 </head>
 <body>
 <?php
@@ -31,7 +31,7 @@ if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['password'])){
 ?>
 <form class="box" action="" method="post">
     <a  href="../index.html">
-            <img id="icone"src="../icone.png" />
+            <img id="icone"src="../img/icone.png" />
     </a>
     <h1 class="box-title">S'inscrire</h1>
   <input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur" required />
