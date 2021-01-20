@@ -10,6 +10,7 @@
             <h1> Bienvenue sur notre forum dédié au jeu vidéo League of Legends ! </h1>
             <input class="btn-grad" type="submit" value="Connexion" />
             
+            
         </div>
     </div>
     <div id="scrollUp"> 
