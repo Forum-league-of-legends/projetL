@@ -8,10 +8,17 @@
 <div class="post">
         <div id="bienvenue">
             <h1> Bienvenue sur notre forum dédié au jeu vidéo League of Legends ! </h1>
+            
             <input class="btn-grad" type="submit" value="Connexion" />
             
             
         </div>
+        <?php
+                $nom_auteur="Didier";
+                $titre_topic="Clermont";
+                echo $nom_auteur;
+
+             ?>
     </div>
     <div id="scrollUp"> 
         <a href="#top"><img src="img/to_top.png"/></a>
