@@ -13,12 +13,7 @@
             
             
         </div>
-        <?php
-                $nom_auteur="Didier";
-                $titre_topic="Clermont";
-                echo $nom_auteur;
-
-             ?>
+        
     </div>
     <div id="scrollUp"> 
         <a href="#top"><img src="img/to_top.png"/></a>

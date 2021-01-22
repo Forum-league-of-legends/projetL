@@ -12,14 +12,25 @@
         <a  href="index.php">
             <img id="icone"src="img/icone.png" />
         </a>
-		<div class="inscrit1">
-        <div id="connexion"><a id="texte"href="../Connexion/login.php"/>
-            <img id="porte" src="img/porte.png">
-            <a id="texte"href="Connexion/login.php">Connexion</a>
-			</div>
-			</div>
+         <?php
+        if (isset($_SESSION['username'])){
+        echo "Bonjour ".$_SESSION['username'];
+        ?>
+        <a href="logout.php">
+             <input type="button"  value='deconnexion' >
+        </a>
+        <?php
+        }
+        ?>
+
+	<div class="inscrit1">
+            <div id="connexion"><a id="texte"href="login.php"/>
+                <img id="porte" src="img/porte.png">
+                <a id="texte"href="login.php">Connexion</a>
+            </div>
+	</div>
 			<div class="inscrit">
-            <a id="inscription"href="Connexion/register.php">Inscription</a>
+            <a id="inscription"href="register.php">Inscription</a>
             </div>
     </div>
     <div class="nav">

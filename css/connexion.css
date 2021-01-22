@@ -81,3 +81,11 @@ p.errorMessage {
     color: #FFFFFF;
     border-radius: 3px;
 }
+.echec{
+  text-align: center;
+  color: red;
+}
+.echec a {
+  text-decoration: none;
+  color: red;
+}
