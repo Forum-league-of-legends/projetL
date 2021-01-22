@@ -30,7 +30,7 @@
             </div>
 	</div>
 			<div class="inscrit">
-            <a id="inscription"href="register.php">Inscription</a>
+            <a id="inscription"href="cregister.php">Inscription</a>
             </div>
     </div>
     <div class="nav">

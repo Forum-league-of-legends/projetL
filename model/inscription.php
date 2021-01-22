@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="css/connexion.css" />
-</head>
-<body>
-<?php
 if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['password'])){
   $message="Votre nom d'utilisateur ou votre email est déja utilisé";
   $username=$_POST['username'];
@@ -48,16 +41,3 @@ if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['password'])){
   }
 }
   ?>
-<form class="box" action="" method="post">
-    <a  href="index.php">
-            <img id="icone"src="img/icone.png" />
-    </a>
-    <h1 class="box-title">S'inscrire</h1>
-  <input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur" required />
-    <input type="text" class="box-input" name="email" placeholder="Email" required />
-    <input type="password" class="box-input" name="password" placeholder="Mot de passe" required />
-    <input type="submit" name="submit" value="S'inscrire" class="box-button" />
-    <p class="box-register">Déjà inscrit? <a href="login.php">Connectez-vous ici</a></p>
-</form>
-</body>
-</html>
