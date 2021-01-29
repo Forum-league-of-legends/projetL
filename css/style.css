@@ -137,10 +137,10 @@ li a:hover {
 
 .post{
     display:flex;
-    justify-content: center;
+    flex-direction: column;
     background:#FEFEFE;
     width: 75%;
-    height: 1900px;
+    padding-bottom: 20px;
     margin-left:12.5%;
     
         
@@ -169,11 +169,11 @@ opacity: 0.5;
     border: 1px solid #d9d9d9;    
     text-align: center;
     border-color: rgba(0,0,0,0.15);
-    height: 10%;
-    width: 95%;
+    margin-right: 7px;
     border-radius: 4px;
     background:#f6f6f6;
     margin-top:15px;
+    margin-left:7px;
     padding: 40px 20px;
     font-size:14px;}
 

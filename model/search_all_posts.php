@@ -1,9 +1,7 @@
 <?php
 
     function search_all_posts($conn) {
-    	$nom_auteur="";
-        $titre_topic="";
-    	$reponse = $conn->query('select users.username, topic.titre, topic.date, topic.article, topic.id from users inner join topic on users.id = topic.id_users ');
+    	$reponse = $conn->query('SELECT U.username, T.titre,T.date,T.article FROM users as U INNER JOIN topic as T ON U.id=T.id_users WHERE category=0 ORDER BY date desc');
     	$results = $reponse->fetchAll();
 
 
