@@ -1,0 +1,12 @@
+body
+{
+	background-image:url(../img/vayne.jpeg);
+}
+
+.page
+{
+	background-color: white;
+	width: 700px;
+	height: 720px;
+	margin:  auto;
+}

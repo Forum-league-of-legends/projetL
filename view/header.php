@@ -23,7 +23,7 @@
             </div>
 	</div>
 			<div class="inscrit">
-            <a id="inscription"href="cregister.php">Mon profil</a>
+            <a id="inscription"href="pageprofil.php">Mon profil</a>
             </div>
     </div>
         <?php
