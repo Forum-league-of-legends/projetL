@@ -1,7 +1,7 @@
 <?php
             $servername = 'localhost';
             $username = 'root';
-            $password = 'root';
+            $password = '';
             
             //On établit la connexion
             try {     

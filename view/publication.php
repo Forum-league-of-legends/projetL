@@ -7,17 +7,13 @@
 </head>
 <body>
 <div class="post">
-<form class="container" action="creationpost.php" method="post">
-
-        <p > Entrez le titre de votre article : </p><input type="text" name="titre" placeholder="Entrez un titre" maxlength="40" minlength="5">
-        <p> Entrez votre message </p>
-        <input id="x" class="contenu" type="hidden" name="contenu" placeholder="Entrez votre message" maxlength="200" minlength="10">
-        <trix-editor class="editor" input="x"></trix-editor>
-        <input type="submit" value="Poster le topic">
-    </div>
+    <input id="x" class="contenu" type="hidden" name="contenu" placeholder="Entrez votre message" maxlength="200" minlength="10">
+<trix-editor class="editor" input="x"></trix-editor>
 </div>
-    
-    
+        
+    <div id="scrollUp"> 
+        <a href="#top"><img src="img/to_top.png"/></a>
+    </div>
 
     
 </body>
