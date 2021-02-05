@@ -47,7 +47,14 @@
         <ul>
             <li> <a href="index.php">Accueil<img id="imageacceuil" src="img/acceuil.png"/>   </a></li>
             <li><a href="dernierpost.php">Les derniers posts<img id="imageacceuil" src="img/etoile.png"/></a></li>
-            <li><a href="post.php">Écrire un post<img id="imageacceuil" src="img/ecrire.png"/></a></li>
+            <?php
+                if (isset($_SESSION['username'])){
+            ?>
+                <li><a href="post.php">Écrire un post<img id="imageacceuil" src="img/ecrire.png"/></a></li>
+            <?php }
+                else { ?>
+                    <li><a href="login.php">Écrire un post<img id="imageacceuil" src="img/ecrire.png"/></a></li>
+            <?php }?>
             <li><a href="about.asp">Contact<img id="imageacceuil" src="img/tel.png"/></a></li>
         </ul>
     </div>
