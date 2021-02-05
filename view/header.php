@@ -45,8 +45,8 @@
     <div class="nav">
         
         <ul>
-            <li> <a href="index.html">Accueil<img id="imageacceuil" src="img/acceuil.png"/>   </a></li>
-            <li><a href="news.asp">Les derniers posts<img id="imageacceuil" src="img/etoile.png"/></a></li>
+            <li> <a href="index.php">Accueil<img id="imageacceuil" src="img/acceuil.png"/>   </a></li>
+            <li><a href="dernierpost.php">Les derniers posts<img id="imageacceuil" src="img/etoile.png"/></a></li>
             <li><a href="post.php">Écrire un post<img id="imageacceuil" src="img/ecrire.png"/></a></li>
             <li><a href="about.asp">Contact<img id="imageacceuil" src="img/tel.png"/></a></li>
         </ul>
