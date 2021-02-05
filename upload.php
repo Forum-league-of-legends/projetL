@@ -1,6 +1,6 @@
 <?php
 session_start();
-require ("model/connexion.php");
+require 'model/connexion.php';
 $dossier = 'upload/';
 $fichier = basename($_FILES['avatar']['name']);
 $taille_maxi = 10000000;
@@ -37,6 +37,7 @@ if(!isset($erreur))
 }
 else
 {
+     header('Location: pageprofil.php');  
      echo $erreur;
 }
 
