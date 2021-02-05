@@ -24,7 +24,8 @@
 }
 
 .inscrit
-{
+{   
+    background-color: rgba(0,0,0, .20);
 	margin-top: 100px;
     margin-right: 100px;
 	text-align:center;
@@ -42,11 +43,12 @@
 	text-align:left;
 	vertical-align:middle;
 	line-height: 60px;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .inscrit1
-{
+{   
+    background-color: rgba(0,0,0, .20);
 	margin-top: 100px;
     margin-left: 900px;
 	text-align:center;
@@ -63,7 +65,7 @@
 	text-align:center;
 	vertical-align:middle;
 	line-height: 60px;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 #texte{
     font-family: "lol";
