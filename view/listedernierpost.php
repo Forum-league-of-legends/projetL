@@ -11,7 +11,7 @@
                 foreach ($resultes as $result) {?>
                     <div id="bienvenue">
                         <h1> <?php echo $result['titre']; ?> </h1>
-                        <h3> Cet article a été publié par : <?php echo $result["username"]; ?> a <?php echo $result['date'];?> </h3>
+                        <h3> Cet article a été publié par : <?php echo $result["username"]; ?> <?php echo "<br><img width=50px height=50px src='".$result['avatar']."' /><br>";?> a <?php echo $result['date'];?> </h3>
                         <?php echo html_entity_decode($result["article"]); ?>
                         <?php 
                         if (isset($_SESSION['username'])){ 

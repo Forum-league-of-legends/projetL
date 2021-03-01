@@ -75,7 +75,7 @@ if(isset($_SESSION['id'])) {
                   <input type="file" name="avatar" id="fileUpload">
                   <input type="submit" name="submit" value="Upload">               
             </form>
-              <?php echo "<img src='".$_SESSION['avatar']."' />";?>
+              <?php echo "<img width=150 height=150 src='".$_SESSION['avatar']."' />";?>
          </div>
       </div>
  </div>

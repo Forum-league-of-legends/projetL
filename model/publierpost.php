@@ -1,4 +1,4 @@
-<?php
+w²<?php
 if (isset($_POST['titre'],$_POST['contenu'])){
     $titre=htmlspecialchars($_POST['titre']);
     $contenu = htmlentities($_POST['contenu'], ENT_QUOTES ,"UTF-8");

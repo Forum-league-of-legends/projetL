@@ -21,10 +21,13 @@
                 <img id="porte" src="img/porte.png">
                 <a id="texte"href="logout.php">Deconnexion</a>
             </div>
+
 	</div>
-			<div class="inscrit">
+    <div class="inscrit">
             <a id="inscription"href="pageprofil.php">Mon profil</a>
             </div>
+                
+
     </div>
         <?php
         }
@@ -55,7 +58,7 @@
                 else { ?>
                     <li><a href="login.php">Écrire un post<img id="imageacceuil" src="img/ecrire.png"/></a></li>
             <?php }?>
-            <li><a href="about.asp">Contact<img id="imageacceuil" src="img/tel.png"/></a></li>
+            <li><a href="contact.php">Contact<img id="imageacceuil" src="img/tel.png"/></a></li>
         </ul>
     </div>
 </body>
